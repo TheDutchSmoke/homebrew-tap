@@ -5,8 +5,8 @@ class TwitchIina < Formula
   sha256 "c295ee40a525b3209c769cc515454cdf2c5386189b28d95c2c7787d119d0e3f1"
   license "MIT"
 
-  depends_on :macos
   depends_on "ffmpeg"
+  depends_on :macos
   depends_on "streamlink"
 
   def install
