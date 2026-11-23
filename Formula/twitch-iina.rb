@@ -1,8 +1,8 @@
 class TwitchIina < Formula
-  desc "Twitch in IINA via Streamlink Twitch GUI, with 2K (H.265) and back-to-live"
+  desc "Twitch, Kick and YouTube in IINA via Streamlink, with 2K (H.265) and back-to-live"
   homepage "https://github.com/TheDutchSmoke/twitch-iina"
-  url "https://github.com/TheDutchSmoke/twitch-iina/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "6d523e18553af514cbd5508709d5164e5d6ea1848aa261175282c0e3239048c5"
+  url "https://github.com/TheDutchSmoke/twitch-iina/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "4b946cd5b2ec4514a27c257386bf62c65e7e17ea0ed2a890eeda412028f02816"
   license "MIT"
 
   depends_on "ffmpeg"
